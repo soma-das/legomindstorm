@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Version>8</Version>
+  <nbItems>62</nbItems>
+  <BackgroundColor>
+    <IsKnownColor>true</IsKnownColor>
+    <Name>White</Name>
+  </BackgroundColor>
+  <Author>SOMA</Author>
+  <LUG>Unknown LUG</LUG>
+  <Show>BrickWorld</Show>
+  <Date>
+    <Day>31</Day>
+    <Month>8</Month>
+    <Year>2016</Year>
+  </Date>
+  <Comment />
+  <ExportInfo>
+    <ExportPath>../train pattern/TRACK4.png</ExportPath>
+    <ExportFileType>4</ExportFileType>
+    <ExportArea>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+      <TrainNumber>0</TrainNumber>
+      <Speed>0</Speed>
+      <Station>0</Station>
+    </ExportArea>
+    <ExportScale>0</ExportScale>
+    <ExportWatermark>true</ExportWatermark>
+    <ExportHull>false</ExportHull>
+    <ExportElectricCircuit>false</ExportElectricCircuit>
+    <ExportConnectionPoints>false</ExportConnectionPoints>
+  </ExportInfo>
+  <SelectedLayerIndex>0</SelectedLayerIndex>
+  <Layers>
+    <Layer type="brick" id="44497505">
+      <Name>Layer 1</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <Bricks>
+        <Brick id="14976165">
+          <DisplayArea>
+            <X>250.4375</X>
+            <Y>420.9375</Y>
+            <Width>20.875</Width>
+            <Height>35</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2859.8</PartNumber>
+          <Orientation>450</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c64933228">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c47528147">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c25100141">
+              <LinkedTo>c24574685</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="9847715">
+          <DisplayArea>
+            <X>260.5625</X>
+            <Y>452.9375</Y>
+            <Width>10.75</Width>
+            <Height>17.375</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>90</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c24574685">
+              <LinkedTo>c25100141</LinkedTo>
+            </Connexion>
+            <Connexion id="c19845579">
+              <LinkedTo>c44392488</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="59467483">
+          <DisplayArea>
+            <X>252.7409</X>
+            <Y>466.7235</Y>
+            <Width>15.39446</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>112.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c44392488">
+              <LinkedTo>c19845579</LinkedTo>
+            </Connexion>
+            <Connexion id="c63988077">
+              <LinkedTo>c39021788</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="52136803">
+          <DisplayArea>
+            <X>241.0386</X>
+            <Y>478.4773</Y>
+            <Width>17.71428</Width>
+            <Height>15.68135</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>135</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c39021788">
+              <LinkedTo>c63988077</LinkedTo>
+            </Connexion>
+            <Connexion id="c15651772">
+              <LinkedTo>c6648223</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="62331491">
+          <DisplayArea>
+            <X>226.7138</X>
+            <Y>486.4095</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>157.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c6648223">
+              <LinkedTo>c15651772</LinkedTo>
+            </Connexion>
+            <Connexion id="c59834015">
+              <LinkedTo>c1635228</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="15686020">
+          <DisplayArea>
+            <X>210.8126</X>
+            <Y>489.4375</Y>
+            <Width>17</Width>
+            <Height>8.000003</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c1635228">
+              <LinkedTo>c59834015</LinkedTo>
+            </Connexion>
+            <Connexion id="c14717055">
+              <LinkedTo>c65344633</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="62608109">
+          <DisplayArea>
+            <X>194.4376</X>
+            <Y>486.6875</Y>
+            <Width>17.375</Width>
+            <Height>10.75</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c65344633">
+              <LinkedTo>c14717055</LinkedTo>
+            </Connexion>
+            <Connexion id="c51230787">
+              <LinkedTo>c58423902</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="38092103">
+          <DisplayArea>
+            <X>180.147</X>
+            <Y>478.8659</Y>
+            <Width>17.87967</Width>
+            <Height>15.39446</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>202.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c58423902">
+              <LinkedTo>c51230787</LinkedTo>
+            </Connexion>
+            <Connexion id="c56053076">
+              <LinkedTo>c34715636</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="65561530">
+          <DisplayArea>
+            <X>170.5916</X>
+            <Y>467.1636</Y>
+            <Width>15.68135</Width>
+            <Height>17.71428</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>225</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c34715636">
+              <LinkedTo>c56053076</LinkedTo>
+            </Connexion>
+            <Connexion id="c44005273">
+              <LinkedTo>c60503138</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="8883693">
+          <DisplayArea>
+            <X>167.226</X>
+            <Y>452.8387</Y>
+            <Width>11.11472</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>247.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c60503138">
+              <LinkedTo>c44005273</LinkedTo>
+            </Connexion>
+            <Connexion id="c7657338">
+              <LinkedTo>c1807185</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="48490504">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>436.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c1807185">
+              <LinkedTo>c7657338</LinkedTo>
+            </Connexion>
+            <Connexion id="c16264673">
+              <LinkedTo>c12164329</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="35416756">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>420.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c12164329">
+              <LinkedTo>c16264673</LinkedTo>
+            </Connexion>
+            <Connexion id="c42370099">
+              <LinkedTo>c45786577</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="50184984">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>404.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c45786577">
+              <LinkedTo>c42370099</LinkedTo>
+            </Connexion>
+            <Connexion id="c9426010">
+              <LinkedTo>c17725233</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="38451933">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>388.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17725233">
+              <LinkedTo>c9426010</LinkedTo>
+            </Connexion>
+            <Connexion id="c25309374">
+              <LinkedTo>c26457778</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="27598891">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>372.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c26457778">
+              <LinkedTo>c25309374</LinkedTo>
+            </Connexion>
+            <Connexion id="c36793414">
+              <LinkedTo>c62705275</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="20917673">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>356.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c62705275">
+              <LinkedTo>c36793414</LinkedTo>
+            </Connexion>
+            <Connexion id="c27476571">
+              <LinkedTo>c45962549</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="16609919">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>340.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c45962549">
+              <LinkedTo>c27476571</LinkedTo>
+            </Connexion>
+            <Connexion id="c11009764">
+              <LinkedTo>c31979016</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="3226198">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>324.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c31979016">
+              <LinkedTo>c11009764</LinkedTo>
+            </Connexion>
+            <Connexion id="c19375690">
+              <LinkedTo />
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="59995477">
+          <DisplayArea>
+            <X>168</X>
+            <Y>289.625</Y>
+            <Width>20.875</Width>
+            <Height>35.00001</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2859.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c40163483">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c25927028">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c32016662">
+              <LinkedTo>c19714506</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="11174282">
+          <DisplayArea>
+            <X>168</X>
+            <Y>275.625</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c19714506">
+              <LinkedTo>c32016662</LinkedTo>
+            </Connexion>
+            <Connexion id="c43212834">
+              <LinkedTo>c53371190</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="32701678">
+          <DisplayArea>
+            <X>168</X>
+            <Y>259.625</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c53371190">
+              <LinkedTo>c43212834</LinkedTo>
+            </Connexion>
+            <Connexion id="c10578662">
+              <LinkedTo>c28099101</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="31590262">
+          <DisplayArea>
+            <X>168</X>
+            <Y>243.625</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c28099101">
+              <LinkedTo>c10578662</LinkedTo>
+            </Connexion>
+            <Connexion id="c51565323">
+              <LinkedTo>c61434729</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="8674443">
+          <DisplayArea>
+            <X>168</X>
+            <Y>227.625</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c61434729">
+              <LinkedTo>c51565323</LinkedTo>
+            </Connexion>
+            <Connexion id="c16041657">
+              <LinkedTo>c10157186</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="31541268">
+          <DisplayArea>
+            <X>168</X>
+            <Y>195.5</Y>
+            <Width>20.75</Width>
+            <Height>35</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2861.8</PartNumber>
+          <Orientation>90</Orientation>
+          <ActiveConnectionPointIndex>2</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c24305815">
+              <LinkedTo>c17425743</LinkedTo>
+            </Connexion>
+            <Connexion id="c10157186">
+              <LinkedTo>c16041657</LinkedTo>
+            </Connexion>
+            <Connexion id="c22613965">
+              <LinkedTo />
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="48412952">
+          <DisplayArea>
+            <X>168</X>
+            <Y>179.125</Y>
+            <Width>10.74999</Width>
+            <Height>17.375</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17425743">
+              <LinkedTo>c24305815</LinkedTo>
+            </Connexion>
+            <Connexion id="c2199097">
+              <LinkedTo>c19791876</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="29135036">
+          <DisplayArea>
+            <X>171.1771</X>
+            <Y>164.8344</Y>
+            <Width>15.39445</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>292.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c19791876">
+              <LinkedTo>c2199097</LinkedTo>
+            </Connexion>
+            <Connexion id="c43909159">
+              <LinkedTo>c59638115</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="11127745">
+          <DisplayArea>
+            <X>180.5596</X>
+            <Y>155.2789</Y>
+            <Width>17.71428</Width>
+            <Height>15.68135</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>315</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c59638115">
+              <LinkedTo>c43909159</LinkedTo>
+            </Connexion>
+            <Connexion id="c66980994">
+              <LinkedTo>c65958035</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="28932175">
+          <DisplayArea>
+            <X>194.719</X>
+            <Y>151.9134</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>337.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c65958035">
+              <LinkedTo>c66980994</LinkedTo>
+            </Connexion>
+            <Connexion id="c56751409">
+              <LinkedTo>c41000636</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="61804813">
+          <DisplayArea>
+            <X>211.4998</X>
+            <Y>152.0001</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c41000636">
+              <LinkedTo>c56751409</LinkedTo>
+            </Connexion>
+            <Connexion id="c33461405">
+              <LinkedTo>c32717189</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="40133923">
+          <DisplayArea>
+            <X>227.4998</X>
+            <Y>152.0001</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c32717189">
+              <LinkedTo>c33461405</LinkedTo>
+            </Connexion>
+            <Connexion id="c26019245">
+              <LinkedTo>c32846614</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="29622330">
+          <DisplayArea>
+            <X>243.4998</X>
+            <Y>152.0001</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c32846614">
+              <LinkedTo>c26019245</LinkedTo>
+            </Connexion>
+            <Connexion id="c27184073">
+              <LinkedTo>c43330072</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="50598521">
+          <DisplayArea>
+            <X>259.4998</X>
+            <Y>152.0001</Y>
+            <Width>35</Width>
+            <Height>20.875</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2859.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>2</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c43330072">
+              <LinkedTo>c27184073</LinkedTo>
+            </Connexion>
+            <Connexion id="c54426330">
+              <LinkedTo>c20074930</LinkedTo>
+            </Connexion>
+            <Connexion id="c46456648">
+              <LinkedTo />
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="4839561">
+          <DisplayArea>
+            <X>291.1248</X>
+            <Y>165.2501</Y>
+            <Width>17.375</Width>
+            <Height>10.75</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c15456653">
+              <LinkedTo>c4892154</LinkedTo>
+            </Connexion>
+            <Connexion id="c20074930">
+              <LinkedTo>c54426330</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="38379555">
+          <DisplayArea>
+            <X>307.4998</X>
+            <Y>168.0001</Y>
+            <Width>17.375</Width>
+            <Height>10.75</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c4892154">
+              <LinkedTo>c15456653</LinkedTo>
+            </Connexion>
+            <Connexion id="c44029393">
+              <LinkedTo>c60720217</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="61408172">
+          <DisplayArea>
+            <X>321.2858</X>
+            <Y>171.1772</Y>
+            <Width>17.87967</Width>
+            <Height>15.39446</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>22.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c60720217">
+              <LinkedTo>c44029393</LinkedTo>
+            </Connexion>
+            <Connexion id="c9611044">
+              <LinkedTo>c19390540</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="8006030">
+          <DisplayArea>
+            <X>333.0396</X>
+            <Y>180.5596</Y>
+            <Width>15.68135</Width>
+            <Height>17.71428</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>45</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c19390540">
+              <LinkedTo>c9611044</LinkedTo>
+            </Connexion>
+            <Connexion id="c40297137">
+              <LinkedTo>c27129916</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="44508680">
+          <DisplayArea>
+            <X>340.9718</X>
+            <Y>194.7191</Y>
+            <Width>11.11472</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>67.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c27129916">
+              <LinkedTo>c40297137</LinkedTo>
+            </Connexion>
+            <Connexion id="c42842654">
+              <LinkedTo>c50039568</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="48433347">
+          <DisplayArea>
+            <X>343.9131</X>
+            <Y>211.401</Y>
+            <Width>11.11472</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>247.5</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c47702931">
+              <LinkedTo>c26673201</LinkedTo>
+            </Connexion>
+            <Connexion id="c50039568">
+              <LinkedTo>c42842654</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="8647967">
+          <DisplayArea>
+            <X>347.2787</X>
+            <Y>225.7259</Y>
+            <Width>15.68135</Width>
+            <Height>17.71428</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>225</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c38732217">
+              <LinkedTo>c13045638</LinkedTo>
+            </Connexion>
+            <Connexion id="c26673201">
+              <LinkedTo>c47702931</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="29396722">
+          <DisplayArea>
+            <X>356.8341</X>
+            <Y>237.4282</Y>
+            <Width>17.87967</Width>
+            <Height>15.39446</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>202.5</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c50301879">
+              <LinkedTo>c50063735</LinkedTo>
+            </Connexion>
+            <Connexion id="c13045638">
+              <LinkedTo>c38732217</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="32324290">
+          <DisplayArea>
+            <X>371.1247</X>
+            <Y>245.2498</Y>
+            <Width>17.375</Width>
+            <Height>10.75</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c47920438">
+              <LinkedTo>c28630766</LinkedTo>
+            </Connexion>
+            <Connexion id="c50063735">
+              <LinkedTo>c50301879</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="1021814">
+          <DisplayArea>
+            <X>387.4997</X>
+            <Y>247.9998</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c28630766">
+              <LinkedTo>c47920438</LinkedTo>
+            </Connexion>
+            <Connexion id="c56350302">
+              <LinkedTo>c37390672</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="15658103">
+          <DisplayArea>
+            <X>403.4997</X>
+            <Y>247.9998</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c37390672">
+              <LinkedTo>c56350302</LinkedTo>
+            </Connexion>
+            <Connexion id="c971734">
+              <LinkedTo>c8745607</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="60346796">
+          <DisplayArea>
+            <X>419.4997</X>
+            <Y>247.9998</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c8745607">
+              <LinkedTo>c971734</LinkedTo>
+            </Connexion>
+            <Connexion id="c11601606">
+              <LinkedTo>c37305595</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="56252285">
+          <DisplayArea>
+            <X>435.4997</X>
+            <Y>247.9998</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c37305595">
+              <LinkedTo>c11601606</LinkedTo>
+            </Connexion>
+            <Connexion id="c206039">
+              <LinkedTo>c1854355</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="60141268">
+          <DisplayArea>
+            <X>449.4997</X>
+            <Y>247.9998</Y>
+            <Width>35</Width>
+            <Height>20.75001</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2861.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c16689200">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c1854355">
+              <LinkedTo>c206039</LinkedTo>
+            </Connexion>
+            <Connexion id="c15985080">
+              <LinkedTo>c9647994</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="20896204">
+          <DisplayArea>
+            <X>435.4009</X>
+            <Y>260.9718</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>157.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c9647994">
+              <LinkedTo>c15985080</LinkedTo>
+            </Connexion>
+            <Connexion id="c19723089">
+              <LinkedTo>c43290077</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="14870940">
+          <DisplayArea>
+            <X>418.7189</X>
+            <Y>263.9131</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>337.5</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c54066375">
+              <LinkedTo>c16835328</LinkedTo>
+            </Connexion>
+            <Connexion id="c43290077">
+              <LinkedTo>c19723089</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="36388601">
+          <DisplayArea>
+            <X>404.5594</X>
+            <Y>267.2787</Y>
+            <Width>17.71428</Width>
+            <Height>15.68135</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>315</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17300225">
+              <LinkedTo>c21484299</LinkedTo>
+            </Connexion>
+            <Connexion id="c16835328">
+              <LinkedTo>c54066375</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="61795582">
+          <DisplayArea>
+            <X>395.177</X>
+            <Y>276.8341</Y>
+            <Width>15.39445</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>292.5</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c59140967">
+              <LinkedTo>c62506663</LinkedTo>
+            </Connexion>
+            <Connexion id="c21484299">
+              <LinkedTo>c17300225</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="39386231">
+          <DisplayArea>
+            <X>391.9999</X>
+            <Y>291.1247</Y>
+            <Width>10.74999</Width>
+            <Height>17.375</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c25689059">
+              <LinkedTo>c29874939</LinkedTo>
+            </Connexion>
+            <Connexion id="c62506663">
+              <LinkedTo>c59140967</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="36168141">
+          <DisplayArea>
+            <X>389.2498</X>
+            <Y>307.4997</Y>
+            <Width>10.75</Width>
+            <Height>17.375</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>90</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c29874939">
+              <LinkedTo>c25689059</LinkedTo>
+            </Connexion>
+            <Connexion id="c439002">
+              <LinkedTo>c3951024</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="59900193">
+          <DisplayArea>
+            <X>381.4283</X>
+            <Y>321.2857</Y>
+            <Width>15.39446</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>112.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c3951024">
+              <LinkedTo>c439002</LinkedTo>
+            </Connexion>
+            <Connexion id="c35559222">
+              <LinkedTo>c51597550</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="20077469">
+          <DisplayArea>
+            <X>369.726</X>
+            <Y>333.0395</Y>
+            <Width>17.71428</Width>
+            <Height>15.68135</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>135</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c51597550">
+              <LinkedTo>c35559222</LinkedTo>
+            </Connexion>
+            <Connexion id="c61724767">
+              <LinkedTo>c18651996</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="15662289">
+          <DisplayArea>
+            <X>355.4011</X>
+            <Y>340.9716</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>157.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c18651996">
+              <LinkedTo>c61724767</LinkedTo>
+            </Connexion>
+            <Connexion id="c33650236">
+              <LinkedTo>c34416674</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="60685926">
+          <DisplayArea>
+            <X>338.7191</X>
+            <Y>343.913</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>337.5</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c41314614">
+              <LinkedTo>c36287209</LinkedTo>
+            </Connexion>
+            <Connexion id="c34416674">
+              <LinkedTo>c33650236</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="15299237">
+          <DisplayArea>
+            <X>307.4999</X>
+            <Y>347.2497</Y>
+            <Width>35</Width>
+            <Height>20.75</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2861.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c58149428">
+              <LinkedTo>c53582808</LinkedTo>
+            </Connexion>
+            <Connexion id="c12483231">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c36287209">
+              <LinkedTo>c41314614</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="50545980">
+          <DisplayArea>
+            <X>290.7191</X>
+            <Y>359.913</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>337.5</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c45240216">
+              <LinkedTo>c4508766</LinkedTo>
+            </Connexion>
+            <Connexion id="c53582808">
+              <LinkedTo>c58149428</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="5253358">
+          <DisplayArea>
+            <X>276.5597</X>
+            <Y>363.2786</Y>
+            <Width>17.71428</Width>
+            <Height>15.68135</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>315</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c40578897">
+              <LinkedTo>c29665754</LinkedTo>
+            </Connexion>
+            <Connexion id="c4508766">
+              <LinkedTo>c45240216</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="22868878">
+          <DisplayArea>
+            <X>267.1772</X>
+            <Y>372.834</Y>
+            <Width>15.39445</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>292.5</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c65665194">
+              <LinkedTo>c54115834</LinkedTo>
+            </Connexion>
+            <Connexion id="c29665754">
+              <LinkedTo>c40578897</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="40439847">
+          <DisplayArea>
+            <X>264.0001</X>
+            <Y>387.1246</Y>
+            <Width>10.74999</Width>
+            <Height>17.375</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17280459">
+              <LinkedTo>c21306406</LinkedTo>
+            </Connexion>
+            <Connexion id="c54115834">
+              <LinkedTo>c65665194</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="54402144">
+          <DisplayArea>
+            <X>264.0001</X>
+            <Y>403.4996</Y>
+            <Width>8.000001</Width>
+            <Height>17</Height>
+            <TrainNumber>1</TrainNumber>
+     		<Speed>10</Speed>
+      		<Station>Trondheim</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>90</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c21306406">
+              <LinkedTo>c17280459</LinkedTo>
+            </Connexion>
+            <Connexion id="c57539933">
+              <LinkedTo />
+            </Connexion>
+          </Connexions>
+        </Brick>
+      </Bricks>
+      <Groups />
+    </Layer>
+  </Layers>
+</Map>

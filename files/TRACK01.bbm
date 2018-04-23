@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Version>8</Version>
+  <nbItems>21</nbItems>
+  <BackgroundColor>
+    <IsKnownColor>true</IsKnownColor>
+    <Name>White</Name>
+  </BackgroundColor>
+  <Author>SOMA</Author>
+  <LUG>Unknown LUG</LUG>
+  <Show>BrickWorld</Show>
+  <Date>
+    <Day>31</Day>
+    <Month>8</Month>
+    <Year>2016</Year>
+  </Date>
+  <Comment />
+  <ExportInfo>
+    <ExportPath>TRACK4.png</ExportPath>
+    <ExportFileType>4</ExportFileType>
+    <ExportArea>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+      <TrainNumber>0</TrainNumber>
+      <Speed>0</Speed>
+      <Station>0</Station>
+    </ExportArea>
+    <ExportScale>0</ExportScale>
+    <ExportWatermark>true</ExportWatermark>
+    <ExportHull>false</ExportHull>
+    <ExportElectricCircuit>false</ExportElectricCircuit>
+    <ExportConnectionPoints>false</ExportConnectionPoints>
+  </ExportInfo>
+  <SelectedLayerIndex>0</SelectedLayerIndex>
+  <Layers>
+    <Layer type="brick" id="23410681">
+      <Name>Layer 1</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <Bricks>
+        <Brick id="14976165">
+          <DisplayArea>
+            <X>250.4375</X>
+            <Y>420.9375</Y>
+            <Width>20.875</Width>
+            <Height>35</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2859.8</PartNumber>
+          <Orientation>450</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c9369539">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c17216995">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c20735233">
+              <LinkedTo>c52399374</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="9847715">
+          <DisplayArea>
+            <X>260.5625</X>
+            <Y>452.9375</Y>
+            <Width>10.75</Width>
+            <Height>17.375</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>90</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c52399374">
+              <LinkedTo>c20735233</LinkedTo>
+            </Connexion>
+            <Connexion id="c1832323">
+              <LinkedTo>c16490914</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="59467483">
+          <DisplayArea>
+            <X>252.7409</X>
+            <Y>466.7235</Y>
+            <Width>15.39446</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>112.5</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c16490914">
+              <LinkedTo>c1832323</LinkedTo>
+            </Connexion>
+            <Connexion id="c14200498">
+              <LinkedTo>c60695621</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="52136803">
+          <DisplayArea>
+            <X>241.0386</X>
+            <Y>478.4773</Y>
+            <Width>17.71428</Width>
+            <Height>15.68135</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>135</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c60695621">
+              <LinkedTo>c14200498</LinkedTo>
+            </Connexion>
+            <Connexion id="c9389685">
+              <LinkedTo>c17398306</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="62331491">
+          <DisplayArea>
+            <X>226.7138</X>
+            <Y>486.4095</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>157.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17398306">
+              <LinkedTo>c9389685</LinkedTo>
+            </Connexion>
+            <Connexion id="c22367029">
+              <LinkedTo>c67085535</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="15686020">
+          <DisplayArea>
+            <X>210.8126</X>
+            <Y>489.4375</Y>
+            <Width>17</Width>
+            <Height>8.000003</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c67085535">
+              <LinkedTo>c22367029</LinkedTo>
+            </Connexion>
+            <Connexion id="c66898905">
+              <LinkedTo>c65219236</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="62608109">
+          <DisplayArea>
+            <X>194.4376</X>
+            <Y>486.6875</Y>
+            <Width>17.375</Width>
+            <Height>10.75</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c65219236">
+              <LinkedTo>c66898905</LinkedTo>
+            </Connexion>
+            <Connexion id="c50102218">
+              <LinkedTo>c48266778</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="38092103">
+          <DisplayArea>
+            <X>180.147</X>
+            <Y>478.8659</Y>
+            <Width>17.87967</Width>
+            <Height>15.39446</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>202.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c48266778">
+              <LinkedTo>c50102218</LinkedTo>
+            </Connexion>
+            <Connexion id="c31747823">
+              <LinkedTo>c17294952</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="65561530">
+          <DisplayArea>
+            <X>170.5916</X>
+            <Y>467.1636</Y>
+            <Width>15.68135</Width>
+            <Height>17.71428</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>225</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17294952">
+              <LinkedTo>c31747823</LinkedTo>
+            </Connexion>
+            <Connexion id="c21436848">
+              <LinkedTo>c58713911</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="8883693">
+          <DisplayArea>
+            <X>167.226</X>
+            <Y>452.8387</Y>
+            <Width>11.11472</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>247.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c58713911">
+              <LinkedTo>c21436848</LinkedTo>
+            </Connexion>
+            <Connexion id="c58663159">
+              <LinkedTo>c58206383</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="48490504">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>436.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station> 
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c58206383">
+              <LinkedTo>c58663159</LinkedTo>
+            </Connexion>
+            <Connexion id="c54095401">
+              <LinkedTo>c17096567</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="35416756">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>420.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17096567">
+              <LinkedTo>c54095401</LinkedTo>
+            </Connexion>
+            <Connexion id="c19651376">
+              <LinkedTo>c42644663</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="50184984">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>404.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c42644663">
+              <LinkedTo>c19651376</LinkedTo>
+            </Connexion>
+            <Connexion id="c48257652">
+              <LinkedTo>c31665688</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="38451933">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>388.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c31665688">
+              <LinkedTo>c48257652</LinkedTo>
+            </Connexion>
+            <Connexion id="c16555740">
+              <LinkedTo>c14783937</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="27598891">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>372.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c14783937">
+              <LinkedTo>c16555740</LinkedTo>
+            </Connexion>
+            <Connexion id="c65946577">
+              <LinkedTo>c56648283</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="20917673">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>356.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station> 
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c56648283">
+              <LinkedTo>c65946577</LinkedTo>
+            </Connexion>
+            <Connexion id="c40072506">
+              <LinkedTo>c25108238</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="16609919">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>340.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c25108238">
+              <LinkedTo>c40072506</LinkedTo>
+            </Connexion>
+            <Connexion id="c24647552">
+              <LinkedTo>c20501377</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="3226198">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>324.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station> 
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c20501377">
+              <LinkedTo>c24647552</LinkedTo>
+            </Connexion>
+            <Connexion id="c50294666">
+              <LinkedTo>c49998812</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="59995477">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>290.9376</Y>
+            <Width>20.875</Width>
+            <Height>35.00001</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station> 
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2859.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>2</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c49998812">
+              <LinkedTo>c50294666</LinkedTo>
+            </Connexion>
+            <Connexion id="c47336128">
+              <LinkedTo>c23371976</LinkedTo>
+            </Connexion>
+            <Connexion id="c9021196">
+              <LinkedTo />
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="51797270">
+          <DisplayArea>
+            <X>180.5627</X>
+            <Y>276.9376</Y>
+            <Width>10.75</Width>
+            <Height>17.375</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station> 
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>90</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c14081900">
+              <LinkedTo>c59628243</LinkedTo>
+            </Connexion>
+            <Connexion id="c23371976">
+              <LinkedTo>c47336128</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="45028263">
+          <DisplayArea>
+            <X>183.3127</X>
+            <Y>260.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>11</TrainNumber>
+     	 	<Speed>100</Speed>
+      		<Station>Oslo</Station> 
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c59628243">
+              <LinkedTo>c14081900</LinkedTo>
+            </Connexion>
+            <Connexion id="c66892145">
+              <LinkedTo />
+            </Connexion>
+          </Connexions>
+        </Brick>
+      </Bricks>
+      <Groups />
+    </Layer>
+  </Layers>
+</Map>

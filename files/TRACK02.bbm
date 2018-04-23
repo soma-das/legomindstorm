@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Version>8</Version>
+  <nbItems>52</nbItems>
+  <BackgroundColor>
+    <IsKnownColor>true</IsKnownColor>
+    <Name>White</Name>
+  </BackgroundColor>
+  <Author>SOMA</Author>
+  <LUG>Unknown LUG</LUG>
+  <Show>BrickWorld</Show>
+  <Date>
+    <Day>31</Day>
+    <Month>8</Month>
+    <Year>2016</Year>
+  </Date>
+  <Comment />
+  <ExportInfo>
+    <ExportPath>TRACK4.png</ExportPath>
+    <ExportFileType>4</ExportFileType>
+    <ExportArea>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+      <TrainNumber>0</TrainNumber>
+      <Speed>0</Speed>
+      <Station>0</Station>
+    </ExportArea>
+    <ExportScale>0</ExportScale>
+    <ExportWatermark>true</ExportWatermark>
+    <ExportHull>false</ExportHull>
+    <ExportElectricCircuit>false</ExportElectricCircuit>
+    <ExportConnectionPoints>false</ExportConnectionPoints>
+  </ExportInfo>
+  <SelectedLayerIndex>0</SelectedLayerIndex>
+  <Layers>
+    <Layer type="brick" id="23410681">
+      <Name>Layer 1</Name>
+      <Visible>true</Visible>
+      <Transparency>100</Transparency>
+      <Bricks>
+        <Brick id="14976165">
+          <DisplayArea>
+            <X>250.4375</X>
+            <Y>420.9375</Y>
+            <Width>20.875</Width>
+            <Height>35</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2859.8</PartNumber>
+          <Orientation>450</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c9369539">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c17216995">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c20735233">
+              <LinkedTo>c52399374</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="9847715">
+          <DisplayArea>
+            <X>260.5625</X>
+            <Y>452.9375</Y>
+            <Width>10.75</Width>
+            <Height>17.375</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>90</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c52399374">
+              <LinkedTo>c20735233</LinkedTo>
+            </Connexion>
+            <Connexion id="c1832323">
+              <LinkedTo>c16490914</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="59467483">
+          <DisplayArea>
+            <X>252.7409</X>
+            <Y>466.7235</Y>
+            <Width>15.39446</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>112.5</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c16490914">
+              <LinkedTo>c1832323</LinkedTo>
+            </Connexion>
+            <Connexion id="c14200498">
+              <LinkedTo>c60695621</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="52136803">
+          <DisplayArea>
+            <X>241.0386</X>
+            <Y>478.4773</Y>
+            <Width>17.71428</Width>
+            <Height>15.68135</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>135</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c60695621">
+              <LinkedTo>c14200498</LinkedTo>
+            </Connexion>
+            <Connexion id="c9389685">
+              <LinkedTo>c17398306</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="62331491">
+          <DisplayArea>
+            <X>226.7138</X>
+            <Y>486.4095</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>157.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17398306">
+              <LinkedTo>c9389685</LinkedTo>
+            </Connexion>
+            <Connexion id="c22367029">
+              <LinkedTo>c67085535</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="15686020">
+          <DisplayArea>
+            <X>210.8126</X>
+            <Y>489.4375</Y>
+            <Width>17</Width>
+            <Height>8.000003</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c67085535">
+              <LinkedTo>c22367029</LinkedTo>
+            </Connexion>
+            <Connexion id="c66898905">
+              <LinkedTo>c65219236</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="62608109">
+          <DisplayArea>
+            <X>194.4376</X>
+            <Y>486.6875</Y>
+            <Width>17.375</Width>
+            <Height>10.75</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c65219236">
+              <LinkedTo>c66898905</LinkedTo>
+            </Connexion>
+            <Connexion id="c50102218">
+              <LinkedTo>c48266778</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="38092103">
+          <DisplayArea>
+            <X>180.147</X>
+            <Y>478.8659</Y>
+            <Width>17.87967</Width>
+            <Height>15.39446</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>202.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c48266778">
+              <LinkedTo>c50102218</LinkedTo>
+            </Connexion>
+            <Connexion id="c31747823">
+              <LinkedTo>c17294952</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="65561530">
+          <DisplayArea>
+            <X>170.5916</X>
+            <Y>467.1636</Y>
+            <Width>15.68135</Width>
+            <Height>17.71428</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>225</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17294952">
+              <LinkedTo>c31747823</LinkedTo>
+            </Connexion>
+            <Connexion id="c21436848">
+              <LinkedTo>c58713911</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="8883693">
+          <DisplayArea>
+            <X>167.226</X>
+            <Y>452.8387</Y>
+            <Width>11.11472</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>247.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c58713911">
+              <LinkedTo>c21436848</LinkedTo>
+            </Connexion>
+            <Connexion id="c58663159">
+              <LinkedTo>c58206383</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="48490504">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>436.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c58206383">
+              <LinkedTo>c58663159</LinkedTo>
+            </Connexion>
+            <Connexion id="c54095401">
+              <LinkedTo>c17096567</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="35416756">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>420.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c17096567">
+              <LinkedTo>c54095401</LinkedTo>
+            </Connexion>
+            <Connexion id="c19651376">
+              <LinkedTo>c42644663</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="50184984">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>404.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c42644663">
+              <LinkedTo>c19651376</LinkedTo>
+            </Connexion>
+            <Connexion id="c48257652">
+              <LinkedTo>c31665688</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="38451933">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>388.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c31665688">
+              <LinkedTo>c48257652</LinkedTo>
+            </Connexion>
+            <Connexion id="c16555740">
+              <LinkedTo>c14783937</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="27598891">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>372.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c14783937">
+              <LinkedTo>c16555740</LinkedTo>
+            </Connexion>
+            <Connexion id="c65946577">
+              <LinkedTo>c56648283</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="20917673">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>356.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c56648283">
+              <LinkedTo>c65946577</LinkedTo>
+            </Connexion>
+            <Connexion id="c40072506">
+              <LinkedTo>c25108238</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="16609919">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>340.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c25108238">
+              <LinkedTo>c40072506</LinkedTo>
+            </Connexion>
+            <Connexion id="c24647552">
+              <LinkedTo>c20501377</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="3226198">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>324.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c20501377">
+              <LinkedTo>c24647552</LinkedTo>
+            </Connexion>
+            <Connexion id="c50294666">
+              <LinkedTo>c49998812</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="59995477">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>290.9376</Y>
+            <Width>20.875</Width>
+            <Height>35.00001</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2859.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c49998812">
+              <LinkedTo>c50294666</LinkedTo>
+            </Connexion>
+            <Connexion id="c47336128">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c9021196">
+              <LinkedTo>c32830290</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="57678784">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>276.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c32830290">
+              <LinkedTo>c9021196</LinkedTo>
+            </Connexion>
+            <Connexion id="c27037160">
+              <LinkedTo>c42007851</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="41469957">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>260.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c42007851">
+              <LinkedTo>c27037160</LinkedTo>
+            </Connexion>
+            <Connexion id="c42526340">
+              <LinkedTo>c47192740</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="3623379">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>244.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c47192740">
+              <LinkedTo>c42526340</LinkedTo>
+            </Connexion>
+            <Connexion id="c22081476">
+              <LinkedTo>c64515557</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="25058257">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>228.9376</Y>
+            <Width>8.000008</Width>
+            <Height>17</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c64515557">
+              <LinkedTo>c22081476</LinkedTo>
+            </Connexion>
+            <Connexion id="c43769104">
+              <LinkedTo>c58377623</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="16353430">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>196.9376</Y>
+            <Width>20.75</Width>
+            <Height>35</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2861.8</PartNumber>
+          <Orientation>90</Orientation>
+          <ActiveConnectionPointIndex>2</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c55636561">
+              <LinkedTo>c30967009</LinkedTo>
+            </Connexion>
+            <Connexion id="c58377623">
+              <LinkedTo>c43769104</LinkedTo>
+            </Connexion>
+            <Connexion id="c10267631">
+              <LinkedTo />
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="24250547">
+          <DisplayArea>
+            <X>167.3127</X>
+            <Y>180.5626</Y>
+            <Width>10.74999</Width>
+            <Height>17.375</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>270</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c30967009">
+              <LinkedTo>c55636561</LinkedTo>
+            </Connexion>
+            <Connexion id="c25299820">
+              <LinkedTo>c26371793</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="18137316">
+          <DisplayArea>
+            <X>170.4898</X>
+            <Y>166.272</Y>
+            <Width>15.39445</Width>
+            <Height>17.87967</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>292.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c26371793">
+              <LinkedTo>c25299820</LinkedTo>
+            </Connexion>
+            <Connexion id="c36019552">
+              <LinkedTo>c55740512</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="59836530">
+          <DisplayArea>
+            <X>179.8723</X>
+            <Y>156.7166</Y>
+            <Width>17.71428</Width>
+            <Height>15.68135</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>315</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c55740512">
+              <LinkedTo>c36019552</LinkedTo>
+            </Connexion>
+            <Connexion id="c31902563">
+              <LinkedTo>c18687619</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="14920772">
+          <DisplayArea>
+            <X>194.0318</X>
+            <Y>153.351</Y>
+            <Width>17.87967</Width>
+            <Height>11.11472</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>337.5</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c18687619">
+              <LinkedTo>c31902563</LinkedTo>
+            </Connexion>
+            <Connexion id="c33970848">
+              <LinkedTo>c37302179</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="623043">
+          <DisplayArea>
+            <X>210.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c37302179">
+              <LinkedTo>c33970848</LinkedTo>
+            </Connexion>
+            <Connexion id="c175293">
+              <LinkedTo>c1577639</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="50466518">
+          <DisplayArea>
+            <X>226.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c1577639">
+              <LinkedTo>c175293</LinkedTo>
+            </Connexion>
+            <Connexion id="c14198754">
+              <LinkedTo>c60679928</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="61256166">
+          <DisplayArea>
+            <X>242.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c60679928">
+              <LinkedTo>c14198754</LinkedTo>
+            </Connexion>
+            <Connexion id="c9248440">
+              <LinkedTo>c16127101</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="62802394">
+          <DisplayArea>
+            <X>258.8126</X>
+            <Y>153.4377</Y>
+            <Width>35</Width>
+            <Height>20.875</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2859.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c16127101">
+              <LinkedTo>c9248440</LinkedTo>
+            </Connexion>
+            <Connexion id="c10926182">
+              <LinkedTo />
+            </Connexion>
+            <Connexion id="c31226782">
+              <LinkedTo>c12605589</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="53829147">
+          <DisplayArea>
+            <X>290.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c12605589">
+              <LinkedTo>c31226782</LinkedTo>
+            </Connexion>
+            <Connexion id="c46341445">
+              <LinkedTo>c14419821</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="65193616">
+          <DisplayArea>
+            <X>306.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c14419821">
+              <LinkedTo>c46341445</LinkedTo>
+            </Connexion>
+            <Connexion id="c62669527">
+              <LinkedTo>c27154837</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="46191521">
+          <DisplayArea>
+            <X>322.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c27154837">
+              <LinkedTo>c62669527</LinkedTo>
+            </Connexion>
+            <Connexion id="c43066942">
+              <LinkedTo>c52058165</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="50525752">
+          <DisplayArea>
+            <X>338.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c52058165">
+              <LinkedTo>c43066942</LinkedTo>
+            </Connexion>
+            <Connexion id="c65870306">
+              <LinkedTo>c55961846</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="66054074">
+          <DisplayArea>
+            <X>354.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c55961846">
+              <LinkedTo>c65870306</LinkedTo>
+            </Connexion>
+            <Connexion id="c33894570">
+              <LinkedTo>c36615679</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="48779793">
+          <DisplayArea>
+            <X>370.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c36615679">
+              <LinkedTo>c33894570</LinkedTo>
+            </Connexion>
+            <Connexion id="c61105663">
+              <LinkedTo>c13080057</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="58849189">
+          <DisplayArea>
+            <X>386.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c13080057">
+              <LinkedTo>c61105663</LinkedTo>
+            </Connexion>
+            <Connexion id="c50611656">
+              <LinkedTo>c52851724</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="2055005">
+          <DisplayArea>
+            <X>402.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c52851724">
+              <LinkedTo>c50611656</LinkedTo>
+            </Connexion>
+            <Connexion id="c5903470">
+              <LinkedTo>c53131231</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="32237730">
+          <DisplayArea>
+            <X>418.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c53131231">
+              <LinkedTo>c5903470</LinkedTo>
+            </Connexion>
+            <Connexion id="c8419032">
+              <LinkedTo>c8662426</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="61119323">
+          <DisplayArea>
+            <X>434.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c8662426">
+              <LinkedTo>c8419032</LinkedTo>
+            </Connexion>
+            <Connexion id="c10852974">
+              <LinkedTo>c30567910</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="51718129">
+          <DisplayArea>
+            <X>450.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c30567910">
+              <LinkedTo>c10852974</LinkedTo>
+            </Connexion>
+            <Connexion id="c6675738">
+              <LinkedTo>c60081642</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="28418891">
+          <DisplayArea>
+            <X>466.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c60081642">
+              <LinkedTo>c6675738</LinkedTo>
+            </Connexion>
+            <Connexion id="c3863873">
+              <LinkedTo>c34774863</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="20228817">
+          <DisplayArea>
+            <X>482.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c34774863">
+              <LinkedTo>c3863873</LinkedTo>
+            </Connexion>
+            <Connexion id="c44538317">
+              <LinkedTo>c65300541</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="27921517">
+          <DisplayArea>
+            <X>498.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c65300541">
+              <LinkedTo>c44538317</LinkedTo>
+            </Connexion>
+            <Connexion id="c50833958">
+              <LinkedTo>c54852443</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="47050372">
+          <DisplayArea>
+            <X>514.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c54852443">
+              <LinkedTo>c50833958</LinkedTo>
+            </Connexion>
+            <Connexion id="c23909939">
+              <LinkedTo>c13862865</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="52983808">
+          <DisplayArea>
+            <X>530.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c13862865">
+              <LinkedTo>c23909939</LinkedTo>
+            </Connexion>
+            <Connexion id="c57656925">
+              <LinkedTo>c49150280</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="63830089">
+          <DisplayArea>
+            <X>546.8126</X>
+            <Y>153.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c49150280">
+              <LinkedTo>c57656925</LinkedTo>
+            </Connexion>
+            <Connexion id="c39699339">
+              <LinkedTo>c21749735</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="2854726">
+          <DisplayArea>
+            <X>562.8126</X>
+            <Y>153.4377</Y>
+            <Width>35</Width>
+            <Height>20.875</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2859.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>2</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="3">
+            <Connexion id="c21749735">
+              <LinkedTo>c39699339</LinkedTo>
+            </Connexion>
+            <Connexion id="c61529894">
+              <LinkedTo>c16898135</LinkedTo>
+            </Connexion>
+            <Connexion id="c17865493">
+              <LinkedTo />
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="29906272">
+          <DisplayArea>
+            <X>594.4376</X>
+            <Y>166.6877</Y>
+            <Width>17.375</Width>
+            <Height>10.75</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2867.8</PartNumber>
+          <Orientation>180</Orientation>
+          <ActiveConnectionPointIndex>0</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c26571712">
+              <LinkedTo>c37818817</LinkedTo>
+            </Connexion>
+            <Connexion id="c16898135">
+              <LinkedTo>c61529894</LinkedTo>
+            </Connexion>
+          </Connexions>
+        </Brick>
+        <Brick id="58400626">
+          <DisplayArea>
+            <X>610.8126</X>
+            <Y>169.4377</Y>
+            <Width>17</Width>
+            <Height>8</Height>
+            <TrainNumber>2</TrainNumber>
+            <Speed>100</Speed>
+            <Station>Bergen</Station>
+          </DisplayArea>
+          <MyGroup />
+          <PartNumber>2865.8</PartNumber>
+          <Orientation>0</Orientation>
+          <ActiveConnectionPointIndex>1</ActiveConnectionPointIndex>
+          <Altitude>0</Altitude>
+          <Connexions count="2">
+            <Connexion id="c37818817">
+              <LinkedTo>c26571712</LinkedTo>
+            </Connexion>
+            <Connexion id="c4825033">
+              <LinkedTo />
+            </Connexion>
+          </Connexions>
+        </Brick>
+      </Bricks>
+      <Groups />
+    </Layer>
+  </Layers>
+</Map>
