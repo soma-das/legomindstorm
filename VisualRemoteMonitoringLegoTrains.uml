@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+  <uml:Package xmi:id="_UkWH4A7-EeePctjLmd0YIw" name="no.ntnu.item.trainvisualsystem">
+    <packagedElement xmi:type="uml:Package" xmi:id="_VJ6TEA7-EeePctjLmd0YIw" name="no.ntnu.item.trainvisualsystem">
+      <packagedElement xmi:type="uml:Activity" xmi:id="_KVvbww6DEeezbaR0jBLkkQ" name="RemoteMonitoringLegoTrain System" classifierBehavior="_VJ8vUg7-EeePctjLmd0YIw" node="_VJ7hMQ7-EeePctjLmd0YIw _VJ7hMw7-EeePctjLmd0YIw" group="_VJ7hMA7-EeePctjLmd0YIw" partition="_VJ7hMA7-EeePctjLmd0YIw">
+        <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_VJ8vUg7-EeePctjLmd0YIw" name="RemoteMonitoringLegoTrain System">
+          <region xmi:id="_VLckIQ7-EeePctjLmd0YIw" name="&lt;region>">
+            <transition xmi:id="_VLeZUA7-EeePctjLmd0YIw" name=" / exit" source="_VLckIw7-EeePctjLmd0YIw" target="_VLckJA7-EeePctjLmd0YIw"/>
+            <transition xmi:id="_VLfAYA7-EeePctjLmd0YIw" name="startMonitoring / " source="_VLckIg7-EeePctjLmd0YIw" target="_VLckIw7-EeePctjLmd0YIw"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_VLckIg7-EeePctjLmd0YIw" name="&lt;initial>"/>
+            <subvertex xmi:type="uml:State" xmi:id="_VLckIw7-EeePctjLmd0YIw" name="active"/>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_VLckJA7-EeePctjLmd0YIw" name="&lt;final>"/>
+          </region>
+        </ownedBehavior>
+        <ownedParameter xmi:id="_b0uDsA_6EeezFKgl5NfMcg" name="exit" direction="out"/>
+        <ownedParameter xmi:id="_b0uDsQ_6EeezFKgl5NfMcg" name="startMonitoring"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_VJ7hMA7-EeePctjLmd0YIw" name="main" node="_VJ7hMQ7-EeePctjLmd0YIw _VJ7hMw7-EeePctjLmd0YIw"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_VJ7hMQ7-EeePctjLmd0YIw" name="exit" inPartition="_VJ7hMA7-EeePctjLmd0YIw" parameter="_b0uDsA_6EeezFKgl5NfMcg"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_VJ7hMw7-EeePctjLmd0YIw" name="startMonitoring" inPartition="_VJ7hMA7-EeePctjLmd0YIw" parameter="_b0uDsQ_6EeezFKgl5NfMcg"/>
+      </packagedElement>
+      <profileApplication xmi:id="_VJ8vUw7-EeePctjLmd0YIw">
+        <eAnnotations xmi:id="_VJ8vVA7-EeePctjLmd0YIw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>
+        </eAnnotations>
+        <appliedProfile href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_rE77YK4iEduZSuTiwKs5Lw"/>
+      </profileApplication>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_UklYcA7-EeePctjLmd0YIw" name="VisualRemoteMonitoringLegoTrains" classifierBehavior="_UmL68A7-EeePctjLmd0YIw" collaborationRole="_UmNwIA7-EeePctjLmd0YIw">
+      <ownedAttribute xmi:id="_UmNwIA7-EeePctjLmd0YIw" name="component"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_UmL68A7-EeePctjLmd0YIw" name="VisualRemoteMonitoringLegoTrains" node="_UmPlUA7-EeePctjLmd0YIw _VJ5E8A7-EeePctjLmd0YIw _ZbDYIA7-EeePctjLmd0YIw" group="_UmO-QA7-EeePctjLmd0YIw" partition="_UmO-QA7-EeePctjLmd0YIw">
+        <ownedOperation xmi:id="_UmYvQA7-EeePctjLmd0YIw" name="amqpErr"/>
+        <ownedOperation xmi:id="_UmYvQQ7-EeePctjLmd0YIw" name="ready"/>
+        <ownedOperation xmi:id="_UmYvQg7-EeePctjLmd0YIw" name="createParameter"/>
+        <ownedOperation xmi:id="_UmYvQw7-EeePctjLmd0YIw" name="received"/>
+        <ownedOperation xmi:id="_UmZWUA7-EeePctjLmd0YIw" name="verifyConfig"/>
+        <ownedOperation xmi:id="_UmZWUQ7-EeePctjLmd0YIw" name="error"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_bQU3sA7-EeePctjLmd0YIw" name="e0" inPartition="_UmO-QA7-EeePctjLmd0YIw" target="_VLgOgA7-EeePctjLmd0YIw" source="_UmPlUA7-EeePctjLmd0YIw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_beM7oA7-EeePctjLmd0YIw" name="e1" inPartition="_UmO-QA7-EeePctjLmd0YIw" target="_ZbDYIA7-EeePctjLmd0YIw" source="_VLfncQ7-EeePctjLmd0YIw"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_UmO-QA7-EeePctjLmd0YIw" name="component" node="_UmPlUA7-EeePctjLmd0YIw _VJ5E8A7-EeePctjLmd0YIw _VLfncQ7-EeePctjLmd0YIw _VLgOgA7-EeePctjLmd0YIw _ZbDYIA7-EeePctjLmd0YIw" edge="_bQU3sA7-EeePctjLmd0YIw _beM7oA7-EeePctjLmd0YIw"/>
+        <node xmi:type="uml:InitialNode" xmi:id="_UmPlUA7-EeePctjLmd0YIw" name="i0" outgoing="_bQU3sA7-EeePctjLmd0YIw" inPartition="_UmO-QA7-EeePctjLmd0YIw"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_VJ5E8A7-EeePctjLmd0YIw" name="b0" inPartition="_UmO-QA7-EeePctjLmd0YIw" behavior="_KVvbww6DEeezbaR0jBLkkQ">
+          <argument xmi:id="_VLgOgA7-EeePctjLmd0YIw" name="startMonitoring" incoming="_bQU3sA7-EeePctjLmd0YIw" inPartition="_UmO-QA7-EeePctjLmd0YIw"/>
+          <result xmi:id="_VLfncQ7-EeePctjLmd0YIw" name="exit" outgoing="_beM7oA7-EeePctjLmd0YIw" inPartition="_UmO-QA7-EeePctjLmd0YIw"/>
+        </node>
+        <node xmi:type="uml:ActivityFinalNode" xmi:id="_ZbDYIA7-EeePctjLmd0YIw" name="x0" incoming="_beM7oA7-EeePctjLmd0YIw" inPartition="_UmO-QA7-EeePctjLmd0YIw"/>
+      </ownedBehavior>
+    </packagedElement>
+    <profileApplication xmi:id="_UkWH4Q7-EeePctjLmd0YIw">
+      <eAnnotations xmi:id="_UkkxYA7-EeePctjLmd0YIw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_rE77YK4iEduZSuTiwKs5Lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_UmOXMA7-EeePctjLmd0YIw">
+      <eAnnotations xmi:id="_UmOXMQ7-EeePctjLmd0YIw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_UEANMUVlEduH9aQE_pc66w"/>
+    </profileApplication>
+  </uml:Package>
+  <arctis:system xmi:id="_UmLT4A7-EeePctjLmd0YIw" base_Collaboration="_UklYcA7-EeePctjLmd0YIw"/>
+  <arctis:system xmi:id="_UmMiAA7-EeePctjLmd0YIw" base_Activity="_UmL68A7-EeePctjLmd0YIw"/>
+  <graphics:Shape xmi:id="_UmOXMg7-EeePctjLmd0YIw" x="250" y="220" width="120" height="70" base_Element="_UmNwIA7-EeePctjLmd0YIw"/>
+  <graphics:Shape xmi:id="_UmO-QQ7-EeePctjLmd0YIw" x="180" y="55" width="613" height="54" base_Element="_UmL68A7-EeePctjLmd0YIw"/>
+  <graphics:Shape xmi:id="_UmO-Qg7-EeePctjLmd0YIw" x="180" y="108" width="613" height="415" base_Element="_UmO-QA7-EeePctjLmd0YIw"/>
+  <graphics:Shape xmi:id="_UmPlUQ7-EeePctjLmd0YIw" x="513" y="153" base_Element="_UmPlUA7-EeePctjLmd0YIw"/>
+  <arctis:esm xmi:id="_VLckIA7-EeePctjLmd0YIw" base_StateMachine="_VJ8vUg7-EeePctjLmd0YIw"/>
+  <arctis:event xmi:id="_VLeZUQ7-EeePctjLmd0YIw" base_Transition="_VLeZUA7-EeePctjLmd0YIw" effects="_VJ7hMQ7-EeePctjLmd0YIw"/>
+  <arctis:event xmi:id="_VLfAYQ7-EeePctjLmd0YIw" base_Transition="_VLfAYA7-EeePctjLmd0YIw" triggers="_VJ7hMw7-EeePctjLmd0YIw"/>
+  <graphics:Shape xmi:id="_VLiqwA7-EeePctjLmd0YIw" x="126" y="18" base_Element="_VLfncQ7-EeePctjLmd0YIw" orientation="south"/>
+  <graphics:Shape xmi:id="_VLjR0Q7-EeePctjLmd0YIw" x="126" y="18" base_Element="_VLgOgA7-EeePctjLmd0YIw" orientation="north"/>
+  <graphics:Shape xmi:id="_VLj44A7-EeePctjLmd0YIw" x="378" y="198" width="379" height="108" base_Element="_VJ5E8A7-EeePctjLmd0YIw"/>
+  <graphics:Shape xmi:id="_ZbGbcA7-EeePctjLmd0YIw" x="513" y="315" base_Element="_ZbDYIA7-EeePctjLmd0YIw"/>
+</xmi:XMI>

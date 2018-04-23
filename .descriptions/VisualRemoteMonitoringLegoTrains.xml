@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="VisualRemoteMonitoringLegoTrains" 
+    uuid="_UmL68A7-EeePctjLmd0YIw" 
+    status="under construction" 
+    type="system" 
+    >
+    <required>
+        <resource path="config/amqpConfig.properties"/>
+        <resource path="config/position.properties"/>
+        <package name="no.ntnu.item.trainvisualsystem.visualremotemonitoringlegotrains.component"/>
+        <block name="b0" uuid="_KVvbww6DEeezbaR0jBLkkQ"/>
+    </required>
+</block>

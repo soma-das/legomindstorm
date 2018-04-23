@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Train Connection Station" 
+    uuid="_7fcjow6HEeezbaR0jBLkkQ" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <resource path="config/amqpConfig.properties"/>
+        <package name="com.bitreactive.library.amqp"/>
+        <package name="com.bitreactive.library.amqp.brokeredamqpclient"/>
+        <package name="no.ntnu.item.trainvisualsystem"/>
+        <package name="no.ntnu.item.trainvisualsystem.trainconnectionstation"/>
+        <block name="b0" uuid="_FIKBk-j7EeSNq-4fvozafQ"/>
+        <block name="b1" uuid="_cAiZ4aWJEeGtcaXYz8RSig"/>
+        <block name="b2" uuid="_VIrRQQy_EeeOGZOZnSWGaA"/>
+        <block name="b4" uuid="_cGCdQQ82EeevopQ3uQ030Q"/>
+        <block name="b5" uuid="_cGCdQQ82EeevopQ3uQ030Q"/>
+    </required>
+</block>

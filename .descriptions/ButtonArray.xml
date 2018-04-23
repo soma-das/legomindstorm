@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Button Array" 
+    author="Frank Alexander Kraemer" 
+    provider="NTNU - Department of Telematics" 
+    purpose="Opens a window with an array of buttons." 
+    uuid="_VIrRQQy_EeeOGZOZnSWGaA" 
+    status="published" 
+    type="block" 
+    tags="swing, ui" 
+    >
+    <required>
+        <package name="no.ntnu.item.trainvisualsystem.buttonarray"/>
+    </required>
+</block>

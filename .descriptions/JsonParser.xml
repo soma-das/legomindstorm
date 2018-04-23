@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Json Parser" 
+    author="Soma Das" 
+    uuid="_q-kpURPMEeeBX8VvOum-rg" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <library path="lib/gson-2.2.4.jar"/>
+        <package name="no.ntnu.item.trainvisualsystem.graphicsbox"/>
+        <package name="no.ntnu.item.trainvisualsystem.graphicsboxnew"/>
+        <package name="no.ntnu.item.trainvisualsystem.jsonparser"/>
+        <package name="no.ntnu.item.trainvisualsystem.tracksystem"/>
+        <package name="no.ntnu.item.trainvisualsystem.trainmovementcontroller"/>
+    </required>
+</block>

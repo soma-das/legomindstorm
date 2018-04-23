@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Select Train Route" 
+    uuid="_JsxV4BC1Eee78OrapTuPxg" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <package name="no.ntnu.item.trainvisualsystem.selecttrainroute"/>
+    </required>
+</block>

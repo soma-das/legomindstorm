@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="LegoMindstorm Train Simulator" 
+    uuid="_SiTdQQ5yEeezbaR0jBLkkQ" 
+    status="under construction" 
+    type="system" 
+    >
+    <required>
+        <package name="no.ntnu.item.trainvisualsystem.legomindstormtrainsimulator.component"/>
+        <block name="b0" uuid="_EExesQ_kEeesm4Y9us5AXw"/>
+    </required>
+</block>

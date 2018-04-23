@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="ErrorRestartConsoleHandler" 
+    author="Peter Herrmann" 
+    provider="NTNU" 
+    uuid="_cGCdQQ82EeevopQ3uQ030Q" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <package name="no.ntnu.item.trainvisualsystem.errorrestartconsolehandler"/>
+        <block name="b0" uuid="__ZjgceOgEd2kaNmTXraxzw"/>
+    </required>
+</block>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="RemoteMonitoringLegoTrain System" 
+    uuid="_KVvbww6DEeezbaR0jBLkkQ" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <resource path="config/amqpConfig.properties"/>
+        <resource path="config/position.properties"/>
+        <package name="com.bitreactive.library.amqp"/>
+        <package name="com.bitreactive.library.amqp.brokeredamqpclient"/>
+        <package name="no.ntnu.item.trainvisualsystem"/>
+        <package name="no.ntnu.item.trainvisualsystem.remotemonitoringlegotrainsystem"/>
+        <block name="b0" uuid="_VIrRQQy_EeeOGZOZnSWGaA"/>
+        <block name="b1" uuid="_oI3kyAy_EeeOGZOZnSWGaA"/>
+        <block name="b2" uuid="_YwngmhVTEeeWHNyMqlRzrw"/>
+        <block name="b3" uuid="_7fcjow6HEeezbaR0jBLkkQ"/>
+    </required>
+</block>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Visual Station Controller" 
+    author="Soma Das" 
+    uuid="_YwngmhVTEeeWHNyMqlRzrw" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <library path="lib/gson-2.2.4.jar"/>
+        <resource path="images/bgDark.jpg"/>
+        <resource path="images/green.jpg"/>
+        <resource path="images/jungle.jpg"/>
+        <resource path="images/ticon.png"/>
+        <resource path="images/tt.jpg"/>
+        <package name="no.ntnu.item.trainvisualsystem.tracksystem"/>
+        <package name="no.ntnu.item.trainvisualsystem.visualstationcontroller"/>
+        <block name="b0" uuid="_zMFL8e-eEea2U6CwozSWnA"/>
+        <block name="b1" uuid="_cGCdQQ82EeevopQ3uQ030Q"/>
+        <block name="b3" uuid="_s_RVoBVUEeeWHNyMqlRzrw"/>
+    </required>
+</block>

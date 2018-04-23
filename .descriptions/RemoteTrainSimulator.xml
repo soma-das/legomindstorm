@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Remote Train Simulator" 
+    uuid="_EExesQ_kEeesm4Y9us5AXw" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <resource path="config/amqpConfig.properties"/>
+        <resource path="config/position.properties"/>
+        <package name="com.bitreactive.library.amqp"/>
+        <package name="com.bitreactive.library.amqp.brokeredamqpclient"/>
+        <package name="no.ntnu.item.trainvisualsystem"/>
+        <package name="no.ntnu.item.trainvisualsystem.remotetrainsimulator"/>
+        <package name="no.ntnu.item.trainvisualsystem.traindatasimulator"/>
+        <block name="b0" uuid="_cAiZ4aWJEeGtcaXYz8RSig"/>
+        <block name="b1" uuid="_FIKBk-j7EeSNq-4fvozafQ"/>
+        <block name="b2" uuid="_SrT4IVtUEeGtaPY7WHS-jQ"/>
+        <block name="b3" uuid="_-OJVcRC_Eee78OrapTuPxg"/>
+        <block name="b4" uuid="_-85EwRSDEee3OqB2A8DnpQ"/>
+        <block name="b5" uuid="_VIrRQQy_EeeOGZOZnSWGaA"/>
+        <block name="b6" uuid="_cGCdQQ82EeevopQ3uQ030Q"/>
+    </required>
+</block>

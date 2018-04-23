@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="TrackSystem" 
+    author="Soma Das" 
+    uuid="_oI3kyAy_EeeOGZOZnSWGaA" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <package name="no.ntnu.item.trainvisualsystem.tracksystem"/>
+        <package name="org.dom4j"/>
+        <block name="b0" uuid="_wf-yYN1_EeCNd5Vxw5RoDA"/>
+        <block name="b1" uuid="_cGCdQQ82EeevopQ3uQ030Q"/>
+    </required>
+</block>

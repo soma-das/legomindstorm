@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+  <uml:Package xmi:id="_SgrFkA5yEeezbaR0jBLkkQ" name="no.ntnu.item.trainvisualsystem">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_Sgrsog5yEeezbaR0jBLkkQ" name="LegoMindstorm Train Simulator" classifierBehavior="_SiTdQQ5yEeezbaR0jBLkkQ" collaborationRole="_SiUrYA5yEeezbaR0jBLkkQ">
+      <ownedAttribute xmi:id="_SiUrYA5yEeezbaR0jBLkkQ" name="component"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_SiTdQQ5yEeezbaR0jBLkkQ" name="LegoMindstorm Train Simulator" node="_SiV5gw5yEeezbaR0jBLkkQ _TXW18A5yEeezbaR0jBLkkQ _Vpl-UA5yEeezbaR0jBLkkQ _rYVlQBsAEeeZjtkgjWnucw" group="_SiV5gA5yEeezbaR0jBLkkQ" partition="_SiV5gA5yEeezbaR0jBLkkQ">
+        <edge xmi:type="uml:ControlFlow" xmi:id="_WIjUcA_hEeesm4Y9us5AXw" name="e3" inPartition="_SiV5gA5yEeezbaR0jBLkkQ" target="_rYVlQBsAEeeZjtkgjWnucw" source="_Bb60MBrgEeeZjtkgjWnucw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_LUSngBrgEeeZjtkgjWnucw" name="e0" inPartition="_SiV5gA5yEeezbaR0jBLkkQ" target="_Bb3w4BrgEeeZjtkgjWnucw" source="_SiV5gw5yEeezbaR0jBLkkQ"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_pBGBEBsAEeeZjtkgjWnucw" name="e1" inPartition="_SiV5gA5yEeezbaR0jBLkkQ" target="_rYVlQBsAEeeZjtkgjWnucw" source="_Bb9QcBrgEeeZjtkgjWnucw"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_rYUXIBsAEeeZjtkgjWnucw" name="e2" inPartition="_SiV5gA5yEeezbaR0jBLkkQ" target="_Vpl-UA5yEeezbaR0jBLkkQ" source="_rYVlQBsAEeeZjtkgjWnucw"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_SiV5gA5yEeezbaR0jBLkkQ" name="component" node="_SiV5gw5yEeezbaR0jBLkkQ _TXW18A5yEeezbaR0jBLkkQ _Vpl-UA5yEeezbaR0jBLkkQ _Bb3w4BrgEeeZjtkgjWnucw _Bb60MBrgEeeZjtkgjWnucw _Bb9QcBrgEeeZjtkgjWnucw _rYVlQBsAEeeZjtkgjWnucw" edge="_WIjUcA_hEeesm4Y9us5AXw _LUSngBrgEeeZjtkgjWnucw _pBGBEBsAEeeZjtkgjWnucw _rYUXIBsAEeeZjtkgjWnucw"/>
+        <node xmi:type="uml:InitialNode" xmi:id="_SiV5gw5yEeezbaR0jBLkkQ" name="i0" outgoing="_LUSngBrgEeeZjtkgjWnucw" inPartition="_SiV5gA5yEeezbaR0jBLkkQ"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_TXW18A5yEeezbaR0jBLkkQ" name="b0" inPartition="_SiV5gA5yEeezbaR0jBLkkQ" behavior="_EExesQ_kEeesm4Y9us5AXw">
+          <argument xmi:id="_Bb3w4BrgEeeZjtkgjWnucw" name="startTrainSimulator" incoming="_LUSngBrgEeeZjtkgjWnucw" inPartition="_SiV5gA5yEeezbaR0jBLkkQ"/>
+          <result xmi:id="_Bb60MBrgEeeZjtkgjWnucw" name="stopTrainSimulator" outgoing="_WIjUcA_hEeesm4Y9us5AXw" inPartition="_SiV5gA5yEeezbaR0jBLkkQ"/>
+          <result xmi:id="_Bb9QcBrgEeeZjtkgjWnucw" name="trainSimulatorError" outgoing="_pBGBEBsAEeeZjtkgjWnucw" inPartition="_SiV5gA5yEeezbaR0jBLkkQ"/>
+        </node>
+        <node xmi:type="uml:ActivityFinalNode" xmi:id="_Vpl-UA5yEeezbaR0jBLkkQ" name="x0" incoming="_rYUXIBsAEeeZjtkgjWnucw" inPartition="_SiV5gA5yEeezbaR0jBLkkQ"/>
+        <node xmi:type="uml:MergeNode" xmi:id="_rYVlQBsAEeeZjtkgjWnucw" name="m0" incoming="_WIjUcA_hEeesm4Y9us5AXw _pBGBEBsAEeeZjtkgjWnucw" outgoing="_rYUXIBsAEeeZjtkgjWnucw" inPartition="_SiV5gA5yEeezbaR0jBLkkQ"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GOgyQA_kEeesm4Y9us5AXw" name="no.ntnu.item.trainvisualsystem">
+      <packagedElement xmi:type="uml:Activity" xmi:id="_EExesQ_kEeesm4Y9us5AXw" name="Remote Train Simulator" classifierBehavior="_GOiAZQ_kEeesm4Y9us5AXw" node="_BaFBIBrgEeeZjtkgjWnucw _BaFoMBrgEeeZjtkgjWnucw _BaFoMxrgEeeZjtkgjWnucw" group="_GOhZUA_kEeesm4Y9us5AXw" partition="_GOhZUA_kEeesm4Y9us5AXw">
+        <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_GOiAZQ_kEeesm4Y9us5AXw" name="Remote Train Simulator">
+          <region xmi:id="_GQGtsQ_kEeesm4Y9us5AXw" name="&lt;region>">
+            <transition xmi:id="_BaMV4BrgEeeZjtkgjWnucw" name="startTrainSimulator / " source="_GQGtsg_kEeesm4Y9us5AXw" target="_GQGtsw_kEeesm4Y9us5AXw"/>
+            <transition xmi:id="_Bb17sBrgEeeZjtkgjWnucw" name=" / stopTrainSimulator" source="_GQGtsw_kEeesm4Y9us5AXw" target="_GQGttA_kEeesm4Y9us5AXw"/>
+            <transition xmi:id="_Bb2iwBrgEeeZjtkgjWnucw" name=" / trainSimulatorError" source="_GQGtsw_kEeesm4Y9us5AXw" target="_GQGttA_kEeesm4Y9us5AXw"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_GQGtsg_kEeesm4Y9us5AXw" name="&lt;initial>"/>
+            <subvertex xmi:type="uml:State" xmi:id="_GQGtsw_kEeesm4Y9us5AXw" name="active"/>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_GQGttA_kEeesm4Y9us5AXw" name="&lt;final>"/>
+          </region>
+        </ownedBehavior>
+        <ownedParameter xmi:id="_BaFBIRrgEeeZjtkgjWnucw" name="startTrainSimulator"/>
+        <ownedParameter xmi:id="_BaFoMRrgEeeZjtkgjWnucw" name="stopTrainSimulator" direction="out" parameterSet="_BaFoMhrgEeeZjtkgjWnucw"/>
+        <ownedParameter xmi:id="_BaGPQBrgEeeZjtkgjWnucw" name="trainSimulatorError" direction="out" parameterSet="_BaGPQRrgEeeZjtkgjWnucw"/>
+        <ownedParameterSet xmi:id="_GOiAYQ_kEeesm4Y9us5AXw" name="stopSimulator"/>
+        <ownedParameterSet xmi:id="_GOiAZA_kEeesm4Y9us5AXw" name="simulatorErr"/>
+        <ownedParameterSet xmi:id="_BaFoMhrgEeeZjtkgjWnucw" name="stopTrainSimulator" parameter="_BaFoMRrgEeeZjtkgjWnucw"/>
+        <ownedParameterSet xmi:id="_BaGPQRrgEeeZjtkgjWnucw" name="trainSimulatorError" parameter="_BaGPQBrgEeeZjtkgjWnucw"/>
+        <group xmi:type="uml:ActivityPartition" xmi:id="_GOhZUA_kEeesm4Y9us5AXw" name="main" node="_BaFBIBrgEeeZjtkgjWnucw _BaFoMBrgEeeZjtkgjWnucw _BaFoMxrgEeeZjtkgjWnucw"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_BaFBIBrgEeeZjtkgjWnucw" name="startTrainSimulator" inPartition="_GOhZUA_kEeesm4Y9us5AXw" parameter="_BaFBIRrgEeeZjtkgjWnucw"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_BaFoMBrgEeeZjtkgjWnucw" name="stopTrainSimulator" inPartition="_GOhZUA_kEeesm4Y9us5AXw" parameter="_BaFoMRrgEeeZjtkgjWnucw"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_BaFoMxrgEeeZjtkgjWnucw" name="trainSimulatorError" inPartition="_GOhZUA_kEeesm4Y9us5AXw" parameter="_BaGPQBrgEeeZjtkgjWnucw"/>
+      </packagedElement>
+      <profileApplication xmi:id="_GOincA_kEeesm4Y9us5AXw">
+        <eAnnotations xmi:id="_GOincQ_kEeesm4Y9us5AXw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>
+        </eAnnotations>
+        <appliedProfile href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_rE77YK4iEduZSuTiwKs5Lw"/>
+      </profileApplication>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeEvent" xmi:id="_BPnQABsAEeeZjtkgjWnucw" name="t0">
+      <when xmi:id="_BPpsQBsAEeeZjtkgjWnucw" name="t0">
+        <expr xmi:type="uml:LiteralString" xmi:id="_BPpsQRsAEeeZjtkgjWnucw" name="t0" value="1000"/>
+      </when>
+    </packagedElement>
+    <profileApplication xmi:id="_SgrsoA5yEeezbaR0jBLkkQ">
+      <eAnnotations xmi:id="_SgrsoQ5yEeezbaR0jBLkkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_rE77YK4iEduZSuTiwKs5Lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_SiVScA5yEeezbaR0jBLkkQ">
+      <eAnnotations xmi:id="_SiVScQ5yEeezbaR0jBLkkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_UEANMUVlEduH9aQE_pc66w"/>
+    </profileApplication>
+  </uml:Package>
+  <arctis:system xmi:id="_SiTdQA5yEeezbaR0jBLkkQ" base_Collaboration="_Sgrsog5yEeezbaR0jBLkkQ"/>
+  <arctis:system xmi:id="_SiUEUA5yEeezbaR0jBLkkQ" base_Activity="_SiTdQQ5yEeezbaR0jBLkkQ"/>
+  <graphics:Shape xmi:id="_SiVScg5yEeezbaR0jBLkkQ" x="250" y="220" width="120" height="70" base_Element="_SiUrYA5yEeezbaR0jBLkkQ"/>
+  <graphics:Shape xmi:id="_SiV5gQ5yEeezbaR0jBLkkQ" x="180" y="55" width="613" height="54" base_Element="_SiTdQQ5yEeezbaR0jBLkkQ"/>
+  <graphics:Shape xmi:id="_SiV5gg5yEeezbaR0jBLkkQ" x="180" y="108" width="613" height="415" base_Element="_SiV5gA5yEeezbaR0jBLkkQ"/>
+  <graphics:Shape xmi:id="_SiXHoA5yEeezbaR0jBLkkQ" x="297" y="81" base_Element="_SiV5gw5yEeezbaR0jBLkkQ"/>
+  <graphics:Shape xmi:id="_TY9YcA5yEeezbaR0jBLkkQ" x="288" y="126" width="289" height="108" base_Element="_TXW18A5yEeezbaR0jBLkkQ"/>
+  <graphics:Shape xmi:id="_VpoakA5yEeezbaR0jBLkkQ" x="297" y="315" base_Element="_Vpl-UA5yEeezbaR0jBLkkQ"/>
+  <graphics:Shape xmi:id="_kXp3cA_hEeesm4Y9us5AXw" aux1="" base_Element="_WIjUcA_hEeesm4Y9us5AXw"/>
+  <arctis:esm xmi:id="_GQGtsA_kEeesm4Y9us5AXw" base_StateMachine="_GOiAZQ_kEeesm4Y9us5AXw"/>
+  <arctis:event xmi:id="_Bb0tkBrgEeeZjtkgjWnucw" base_Transition="_BaMV4BrgEeeZjtkgjWnucw" triggers="_BaFBIBrgEeeZjtkgjWnucw"/>
+  <arctis:event xmi:id="_Bb17sRrgEeeZjtkgjWnucw" base_Transition="_Bb17sBrgEeeZjtkgjWnucw" effects="_BaFoMBrgEeeZjtkgjWnucw"/>
+  <arctis:event xmi:id="_Bb2iwRrgEeeZjtkgjWnucw" base_Transition="_Bb2iwBrgEeeZjtkgjWnucw" effects="_BaFoMxrgEeeZjtkgjWnucw"/>
+  <graphics:Shape xmi:id="_DHiogBrgEeeZjtkgjWnucw" x="153" y="86" base_Element="_Bb9QcBrgEeeZjtkgjWnucw"/>
+  <graphics:Shape xmi:id="_F7joQBrgEeeZjtkgjWnucw" x="1" y="1" base_Element="_Bb3w4BrgEeeZjtkgjWnucw" orientation="north"/>
+  <graphics:Shape xmi:id="_rYYBgBsAEeeZjtkgjWnucw" x="297" y="261" width="37" height="37" base_Element="_rYVlQBsAEeeZjtkgjWnucw"/>
+  <graphics:Shape xmi:id="_tlI0ABsAEeeZjtkgjWnucw" aux1="0 58 144 0 " base_Element="_pBGBEBsAEeeZjtkgjWnucw"/>
+</xmi:XMI>

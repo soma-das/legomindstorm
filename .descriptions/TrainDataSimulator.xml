@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="TrainData Simulator" 
+    author="Linda Ariani Gunawan" 
+    provider="Bitreactive AS" 
+    uuid="_-OJVcRC_Eee78OrapTuPxg" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <resource path="files/TRACK00.bbm"/>
+        <resource path="files/TRACK01.bbm"/>
+        <resource path="files/TRACK02.bbm"/>
+        <resource path="files/TRACK42.bbm"/>
+        <package name="no.ntnu.item.trainvisualsystem.traindatasimulator"/>
+        <package name="org.dom4j"/>
+        <block name="b0" uuid="_wf-yYN1_EeCNd5Vxw5RoDA"/>
+        <block name="b1" uuid="_vCXJcVYREd-4YqQXCGC3ew"/>
+    </required>
+</block>

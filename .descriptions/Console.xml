@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Console" 
+    author="Frank Alexander Kraemer" 
+    provider="NTNU - Department of Telematics" 
+    purpose="Displays a Swing console to which text can be appended." 
+    uuid="_-85EwRSDEee3OqB2A8DnpQ" 
+    status="published" 
+    type="block" 
+    tags="swing, ui" 
+    >
+    <required>
+        <package name="no.ntnu.item.trainvisualsystem.console"/>
+    </required>
+</block>
